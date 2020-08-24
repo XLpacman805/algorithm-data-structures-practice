@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/XLpacman805/algorithm-data-structures-practice/issues"
   },
-  "homepage": "https://github.com/XLpacman805/algorithm-data-structures-practice#readme"
+  "homepage": "https://github.com/XLpacman805/algorithm-data-structures-practice#readme",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
 }
