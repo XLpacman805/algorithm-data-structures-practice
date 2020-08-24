@@ -4,7 +4,7 @@
   "description": "Just a repo where I can practice my algo's and data structures to keep my skills fresh.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/XLpacman805/algorithm-data-structures-practice#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.1"
   }
 }
