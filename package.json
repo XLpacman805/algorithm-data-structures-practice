@@ -1,0 +1,19 @@
+{
+  "name": "algorithm-data-structures-practice",
+  "version": "1.0.0",
+  "description": "Just a repo where I can practice my algo's and data structures to keep my skills fresh.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XLpacman805/algorithm-data-structures-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XLpacman805/algorithm-data-structures-practice/issues"
+  },
+  "homepage": "https://github.com/XLpacman805/algorithm-data-structures-practice#readme"
+}
