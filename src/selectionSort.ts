@@ -19,6 +19,16 @@ export const selectionSort = (array: Array<number>) : Array<number> => {
      * [0, 5, (9), (8)!] 
      * [0, 5, 8, 9]
      */
+    const originalArray = [...array];
+    for(let i=0; i < originalArray.length; i++) {
+        // slice the array after the current index.
+
+        // find the lowest value in the array.
+
+        //find the index of that lowest value
+
+        //swap positions with the current value
+    }
 
     return [];
 }
