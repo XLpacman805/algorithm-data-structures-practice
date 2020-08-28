@@ -3,6 +3,7 @@ var assert = chai.assert;    // Using Assert style
 var should = chai.should();  // Using Should style
 const { findLowestValue } = require('./build/utilities');
 const { bubbleSort } = require('./build/bubbleSort');
+const { selectionSort } = require('./build/selectionSort');
 const testArrays = [
   { input: [3, 4, 2, 1, 7, 8, 6, 5, 0], expectedOutput: [0, 1, 2, 3, 4, 5, 6, 7, 8] },
   { input: [38, 5, 12, 58, 37, 35, 48, 3, 36, 60], expectedOutput: [3, 5, 12, 35, 36, 37, 38, 48, 58, 60] },
@@ -23,10 +24,6 @@ const sortingTest = (someSortingFunction) => {
   });
 }
 
-describe('Bubble Sort', () => {
-  sortingTest(bubbleSort)
-});
-
 describe('[utilities] Find Smallest number in array', () => {
   it('Should return lowest value', () => {
     should.equal(findLowestValue(testArrays[0].input), testArrays[0].expectedOutput[0]);
@@ -43,4 +40,12 @@ describe('[utilities] Find Smallest number in array', () => {
   it('Should return lowest value', () => {
     should.equal(findLowestValue([7,7,8,9,6,5,5,4,8,9,0,6,0,8,4,4]), 0);
   });
+});
+
+describe('Bubble Sort', () => {
+  sortingTest(bubbleSort)
+});
+
+describe('Selection Sort', () => {
+  sortingTest(selectionSort)
 });
