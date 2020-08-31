@@ -2,7 +2,7 @@
   "name": "algorithm-data-structures-practice",
   "version": "1.0.0",
   "description": "Just a repo where I can practice my algo's and data structures to keep my skills fresh.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha"
   },
