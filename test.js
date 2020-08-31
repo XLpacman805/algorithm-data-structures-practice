@@ -4,6 +4,7 @@ var should = chai.should();  // Using Should style
 const { findLowestValue } = require('./build/utilities');
 const { bubbleSort } = require('./build/bubbleSort');
 const { selectionSort } = require('./build/selectionSort');
+const { insertionSort } = require('./build/insertionSort');
 const testArrays = [
   { input: [3, 4, 2, 1, 7, 8, 6, 5, 0], expectedOutput: [0, 1, 2, 3, 4, 5, 6, 7, 8] },
   { input: [38, 5, 12, 58, 37, 35, 48, 3, 36, 60], expectedOutput: [3, 5, 12, 35, 36, 37, 38, 48, 58, 60] },
@@ -48,4 +49,8 @@ describe('Bubble Sort', () => {
 
 describe('Selection Sort', () => {
   sortingTest(selectionSort)
+});
+
+describe('Insertion Sort', () => {
+  sortingTest(insertionSort)
 });
