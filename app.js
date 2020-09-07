@@ -1,6 +1,16 @@
-const array = [36, 13, 9, 33, 45, 12, 0, 4, 44, 0, 8, 9, 9000, 12, 27, 53, 46, 1];
-let arr = [...array];
+let array = [38, 5, 12, 58, 0, 37, 35, 48, 0, 3, 36, 60];
 
-const {quickSort } = require('./build/quickSort');
+const { quickSort } = require('./build/quickSort');
+let x = quickSort(array);
+console.log(x.length);
+console.log(array.length);
 
-console.log(quickSort(array));
+
+
+
+
+
+
+
+
+
